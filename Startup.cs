@@ -33,6 +33,8 @@ namespace hp_vs2019_PullRequest
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Welcome INDIA");
+
                 });
             });
         }
